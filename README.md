@@ -1,4 +1,4 @@
-# GEN AI PROJECT: FINANCIAL BOT DEVELOPMENT 
+# GEN AI Project: Financial bot development
 
 ## Objectives & Chatbot Goal's
 - Developed a chatbot to offer financial advice inspired by the principles and lessons from the book Rich Dad Poor Dad by Robert T. Kiyosaki.
