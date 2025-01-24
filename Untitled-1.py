@@ -6,7 +6,6 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 import openai
-import chromadb
 import sqlite3
 import sys
 
