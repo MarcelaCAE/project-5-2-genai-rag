@@ -81,4 +81,8 @@ langchain
 python-dotenv
 langchain-community
 openai
-chromadb
+# chroma-hnswlib and chromadb require sqlite3 >= 3.35.0
+# Ensure your system SQLite version is compatible.
+chroma-hnswlib==0.7.6
+chromadb==0.6.3
+
