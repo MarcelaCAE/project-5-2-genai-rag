@@ -8,6 +8,18 @@ from langchain.vectorstores import Chroma
 import openai
 import chromadb
 
+import sqlite3
+import sys
+
+required_version = (3, 35, 0)
+current_version = sqlite3.sqlite_version_info
+
+if current_version < required_version:
+    sys.exit(
+        f"Error: SQLite version {current_version} is installed, but version >= {required_version} is required. "
+        "Please update SQLite on your system."
+    )
+
 # Load environment variables
 load_dotenv()
 
