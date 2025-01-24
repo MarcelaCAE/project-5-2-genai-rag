@@ -78,3 +78,7 @@ zipp==3.21.0
 mkl-service==2.4.2
 streamlit
 langchain
+python-dotenv
+langchain-community
+openai
+chromadb
